@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divform" id="iddivform">
+        <form action="/insertion" method="POST">
+            <div>
+                <label for="Nom" id="Nom">Nom</label>
+                <input type="text" name="fullName" id="Nom">
+            </div>
+            <div>
+                <label for="Prenom" id="Prenom"> prenom</label>
+                <input type="text" name="Prenom" id="Prenom">
+            </div>
+            <div>
+                <label id="Montant">Montant</label>
+                <input type="number" min="0" max="150000" name="Montant" id="Montant">
+            </div>
+            <div>
+                <label>Pays</label>
+                <input type="text" name="city" id="city">
+            </div>
+            <div  class="form-action-buttons">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div>
+        <form action="/afficher" method="POST">
+            <h3>chercher par nom</h3>
+            <input type="text" name="nomaff" id="nomaff">
+            <button type="submit">afficher les donneurs</button>
+        </form>
+        
+    </div>
+
+    <div id="newDiv">
+
+    </div>
+    
+</body>
+</html>

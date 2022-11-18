@@ -1,0 +1,2 @@
+node .\script.js
+    Me fournit une adresse ip, cliquer dessus ouvre le site web.
